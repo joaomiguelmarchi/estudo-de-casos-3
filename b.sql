@@ -131,11 +131,3 @@ insert into equipamentos (id_equipamento, nome_equipamento, quantidade, funcao) 
 insert into equipamentos (id_equipamento, nome_equipamento, quantidade, funcao) values (2095, 'cano', 4, 'sugar');
 insert into equipamentos (id_equipamento, nome_equipamento, quantidade, funcao) values (6650, 'pontos', 9, 'fechar');
 insert into equipamentos (id_equipamento, nome_equipamento, quantidade, funcao) values (9471, 'soro', 80, 'limpar');
-
-/*UPDATES MEDICO*/
-
-/*UPDATES PACIENTE*/
-
-/*UPDATES REMEDIOS */
-
-/*UPDATES EQUIPAMENTOS */
