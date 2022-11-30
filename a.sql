@@ -1,4 +1,4 @@
-DROP DATABASE hospital;
+ DROP DATABASE hospital;
 - -----------------------------------------------------
 -- Schema hospital
 -- -----------------------------------------------------
@@ -199,10 +199,7 @@ SELECT nome_paciente FROM paciente WHERE cpf_paciente = 385943376;
 SELECT nome_remedio FROM remedios WHERE id_remedio = 2672;
 SELECT nome_equipamento FROM equipamentos WHERE id_equipamento = 4317;
 
-
-/*
-1- INT n aceita mais de 9 caracteres.
-2- Where n aceita string
-3-Chaves Estrangeiras n funfam
-4-Inner Join
-*/
+SELECT *
+FROM consulta
+INNER JOIN medico ON consulta.funcionario_crm = medico.crm
+INNER JOIN paciente ON consulta.cpf_paciente = paciente.cpf_paciente;
